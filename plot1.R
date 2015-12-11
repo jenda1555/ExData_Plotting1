@@ -27,5 +27,5 @@ dats$Sub_metering_3 <- as.numeric(as.vector(dats$Sub_metering_3))
 #### CREATE plot1.png ####
 png("plot1.png", width = 480, height = 480)
 hist(dats$Global_active_power, col = 2, xlab = "Global Active Power (kilowatts)",
-main = "Global Active Power")
+     main = "Global Active Power")
 dev.off()
